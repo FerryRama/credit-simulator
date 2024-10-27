@@ -1,0 +1,15 @@
+# Ignore target directory for Maven builds
+target/
+!**/target/classes/
+!**/target/generated-sources/
+# Ignore compiled class files
+*.class
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
